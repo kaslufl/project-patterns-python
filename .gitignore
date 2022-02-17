@@ -291,3 +291,5 @@ cython_debug/
 /.idea/vcs.xml
 /.idea/project-patterns-python.iml
 /.idea/inspectionProfiles/profiles_settings.xml
+/.idea/misc.xml
+/.idea/codeStyles/codeStyleConfig.xml
