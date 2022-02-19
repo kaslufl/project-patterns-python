@@ -33,8 +33,8 @@ def test_logger(value: str) -> None:
     print(logger.get_logger())
 
 
-if __name__ == '__main__':
-    process1 = Thread(target=test_logger, args=('Logger',))
-    process2 = Thread(target=test_logger, args=('NotLogger',))
+if __name__ == "__main__":
+    process1 = Thread(target=test_logger, args=("Logger",))
+    process2 = Thread(target=test_logger, args=("NotLogger",))
     process1.start()
     process2.start()
