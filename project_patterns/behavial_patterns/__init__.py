@@ -4,3 +4,4 @@ from .command import *
 from .interpreter import *
 from .iterator import *
 from .mediator import *
+from .memento import *
